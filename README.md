@@ -75,7 +75,6 @@ java -cp ".;sqlite-jdbc-3.46.0.0.jar;slf4j-api-2.0.12.jar;slf4j-simple-2.0.12.ja
 
 ## Melhorias futuras
 
-- [ ] Adicionar suporte a relatórios em PDF.
 - [ ] Implementar autenticação de usuários.
 - [ ] Adicionar filtros avançados na interface gráfica.
 - [ ] Internacionalização (i18n) para suporte a múltiplos idiomas.
