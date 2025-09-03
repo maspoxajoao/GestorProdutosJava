@@ -1,0 +1,91 @@
+/* Root do aplicativo */
+.root {  
+    -fx-background-color: #f4f5f7; /* Cinza bem claro, neutro e suave */
+    -fx-font-family: "Segoe UI", "Tahoma", sans-serif;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50; /* Azul escuro suave */
+    -fx-font-weight: 500;
+}
+
+/* Campos de texto */
+.text-field, .combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdde1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 8px;
+    -fx-font-size: 13px;
+}
+
+/* Campo em foco */
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #3498db; /* Azul corporativo */
+    -fx-effect: dropshadow(gaussian, rgba(52,152,219,0.2), 4, 0, 0, 2);
+}
+
+/* Botões */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #3498db, #2980b9);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 16px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 3, 0, 0, 1);
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+/* Botões ao passar o mouse */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #5dade2, #3498db);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 2);
+}
+
+/* Botões desabilitados */
+.button:disabled {
+    -fx-background-color: #b0bec5;
+    -fx-text-fill: #eceff1;
+    -fx-cursor: default;
+    -fx-effect: none;
+}
+
+/* Tabela */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdde1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-font-size: 13px;
+}
+
+/* Cabeçalho da tabela */
+.table-view .column-header {
+    -fx-background-color: #ecf0f1;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* Células da tabela */
+.table-cell {
+    -fx-border-color: #ecf0f1;
+    -fx-padding: 8px 10px;
+    -fx-text-fill: #2c3e50;
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* Linha selecionada */
+.table-row-cell:selected {
+    -fx-background-color: rgba(52, 152, 219, 0.2);
+}
+
+/* Separadores e divisões sutis */
+.separator {
+    -fx-background-color: #dcdde1;
+    -fx-padding: 2px;
+}
