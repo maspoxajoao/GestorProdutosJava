@@ -83,7 +83,7 @@ java -cp ".;sqlite-jdbc-3.46.0.0.jar;slf4j-api-2.0.12.jar;slf4j-simple-2.0.12.ja
 
 ## Sobre
 
-Este projeto foi desenvolvido como parte dos estudos em Engenharia de Software, com foco em:
+Este projeto foi desenvolvido como parte dos estudos em Java, com foco em:
 
 - Programação orientada a objetos.
 - Integração com banco de dados.
