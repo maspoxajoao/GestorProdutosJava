@@ -91,4 +91,3 @@ Este projeto foi desenvolvido como parte dos estudos em Java, com foco em:
 
 ---
 
-**Autor:** João
